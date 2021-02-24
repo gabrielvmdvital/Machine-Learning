@@ -1,0 +1,50 @@
+1°)R:
+Para que um classificador não sequencial seja capaz de identificar padrões sequenciais é necessário modificar sua
+estrutura adicionando-se feedbacks e utilizar cada saída anterior como entrada para a nova saída, assim teremos uma
+rede com memória e esse classificador vai seguir a sequência. Com isso teremos um classificador sequencial.
+
+
+
+2°) R:
+Classificação: A classificação é uma sub-categoria de aprendizagem supervisionada. Classificação é o processo de tomar algum
+tipo de entrada e atribuir um rótulo a ela. Sistemas de classificação são usados ​​geralmente quando as previsões
+são de natureza distinta, ou seja, um simples “sim ou não”.
+
+Regressão: Sub-categoria de aprendizagem supervisionada usada quando o valor que está sendo previsto difere de um “sim ou não” 
+e que siga um espectro contínuo. Sistemas de regressão poderiam ser usados, por exemplo, para responder as perguntas: 
+“Quanto custa?” ou “Quantos existem?”.
+
+
+Clustering: O clustering ou análise de agrupamento de dados é o conjunto de técnicas de prospeção
+de dados (data mining) que visa fazer agrupamentos automáticos de dados segundo o seu grau de semelhança.
+O critério de semelhança faz parte da definição do problema e, dependendo, do algoritmo. A cada conjunto de
+dados resultante do processo dá-se o nome de grupo, aglomerado ou agrupamento (cluster).
+O procedimento de agrupamento (clustering) também pode ser aplicado a bases de texto utilizando
+algoritmos de prospeção de texto (text mining), onde o algoritmo procura agrupar textos que falem sobre
+o mesmo assunto e separar textos de conteúdo diferentes.
+
+
+
+3°)R:
+Em reconhecimento de padrões, um problema é linearmente separável quando podemos criar limites lineares de decisão para separar
+em categorias o vetor de entrada, isto é quando por meio uma reta conseguimos separar os dados em categoria distintas. 
+
+
+
+4°)R:
+Projetando os dados em um espaço onde eles se tornem linearmente separaveis. A projeção 
+dos dados em outra dimensão podem ser feitas usando a função de kernel(kernel trick)
+Após precisamos encontrar um hiperplano que separe os dados nesse novo espaço. A função 
+que projeta o espaço de entrada no espaço de caracteristicas é conhecida como Kernel.
+Baseado no teorema de Cover, os dados no espaço de entrada são transformados (por meio de uma transformação não linear)
+para o espaço de caracteristicas, onde são linearmente separáveis.
+
+
+
+5°)R:
+
+Percepton: NÂO
+Rede Neural MLP: SIM
+Rede Neural RBF: SIM
+Classificador Bayesiano: NÃO
+KNN: SIM
